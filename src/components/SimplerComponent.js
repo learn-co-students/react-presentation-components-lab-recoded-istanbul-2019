@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-const SimplerComponent = (props) => {
+const SimplerComponent = ({ handleClick }) => {
     return (
-        <div onClick={props.handleClick}>
+        <div onClick={handleClick}>
             I am just happy
         </div>
     )
